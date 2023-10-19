@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+
+    /* debug rules */
+    background-color: blue;
+}
+/* stili header */
+header{
+    height:50px;
+    /* debug rules */
+    border: 1px solid black;
+    background-color: rgb(255, 8, 0);
+}
+/* stili main */
+.card{
+    background-image: url(../img/rollo-1--46.jpg);
+    background-size: cover;
+    position: relative;
+    width: calc((100% / 7) - 10px);
+    background-color: red;
+    height:calc(100% / 5) ;
+    margin-right: 10px;
+    /* debug rules */
+    border: 1px solid black;
+}
+main{
+    width: 100%;
+    height: calc(100% - 150px);
+     /* debug rules */
+     border: 1px solid black;
+     background-color: rgb(34, 255, 0);
+}
+#box-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    width: 95%;
+    height: 93%;
+    /* debug rules */
+    border: 1px solid black;
+    background-color: rgb(212, 0, 255);
+
+}
+
+
+/* stili footer */
+footer{
+    display: flex;
+    height:100px;
+    /* debug rules */
+    border: 1px solid black;
+    background-color: rgb(238, 255, 0);
+
+}
+
+.bottom-bar{
+    width: 25%;
+    height:100%;
+    /* debug rules */
+    border: 1px solid black;
+}
+
+.main-bottom{
+    width: 50%;
+    height: 100%;
+    /* debug rules */
+}
+img{
+
+}
