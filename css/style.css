@@ -12,10 +12,28 @@
 }
 /* stili header */
 header{
-    height:50px;
+    display: flex;
+    justify-content: end;
+    height: 40px;
     /* debug rules */
     border: 1px solid black;
-    background-color: rgb(255, 8, 0);
+    background-color: rgb(0, 0, 0);
+}
+.speaker{
+    font-size: 16px;
+    color: white;
+    background-color: grey;
+    padding: 10px;
+    width: 140px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.fa-maximize{
+    font-size: 16px;
+    color: white;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
 }
 /* stili main */
 .card{
@@ -23,18 +41,18 @@ header{
     background-size: cover;
     position: relative;
     width: calc((100% / 7) - 10px);
-    background-color: red;
     height:calc(100% / 5) ;
     margin-right: 10px;
     /* debug rules */
+    /* background-color: red; */
     border: 1px solid black;
 }
 main{
     width: 100%;
-    height: calc(100% - 150px);
+    height: calc(100% - 140px);
      /* debug rules */
      border: 1px solid black;
-     background-color: rgb(34, 255, 0);
+     background-color: rgb(0, 0, 0);
 }
 #box-img{
     display: flex;
@@ -44,8 +62,18 @@ main{
     height: 93%;
     /* debug rules */
     border: 1px solid black;
-    background-color: rgb(212, 0, 255);
-
+    background-color: rgb(0, 0, 0);
+}
+.label{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.537);
+    /* debug rules */
+    /* border: 1px solid rgb(255, 254, 254); */
 }
 
 
@@ -70,7 +98,4 @@ footer{
     width: 50%;
     height: 100%;
     /* debug rules */
-}
-img{
-
 }
